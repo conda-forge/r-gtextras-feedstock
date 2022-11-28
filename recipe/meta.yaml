@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "0.4.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gtExtras_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gtExtras/gtExtras_{{ version }}.tar.gz
-  sha256: 549b00bddc99db1035d69389985166d84f24fcb534b18ea1af74b01f171ca377
+  sha256: d9913ff25e34c523366022c63c4c4df3e6520661f3107f4e2ad6518a533c7413
 
 build:
   merge_build_host: true  # [win]
