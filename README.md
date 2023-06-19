@@ -1,11 +1,11 @@
-About r-gtextras
-================
+About r-gtextras-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gtextras-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jthomasmock/gtExtras, https://jthomasmock.github.io/gtExtras/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gtextras-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides additional functions for creating beautiful tables with 'gt'. The functions are generally wrappers around boilerplate or adding capabilities that are currently not built into 'gt'.
 
